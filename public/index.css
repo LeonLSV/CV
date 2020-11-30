@@ -5,3 +5,10 @@ body {
   font-family: "Helvetica", sans-serif;
   color: white;
 }
+body::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+body::-webkit-scrollbar-thumb {
+  background: black;
+}
