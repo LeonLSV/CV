@@ -1,5 +1,5 @@
 import React from "react";
-import { GlobalLi, Ul1, LineUl, TextUl } from "./styled";
+import { GlobalLi, TextUl } from "./styled";
 
 export const Skill = () => {
   return (
