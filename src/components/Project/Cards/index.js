@@ -10,7 +10,10 @@ export const Card = () => {
         <ImgProject src={proyecto1} alt="Proyecto1" />
         <Titular>Always Update</Titular>
         <Descripcion>Diario digital Scraping</Descripcion>
-        <Anchor href="https://github.com/LeonLSV/DiarioDigital">
+        <Anchor
+          href="https://github.com/LeonLSV/DiarioDigital"
+          target="_blank"
+          rel="noreferrer">
           <GithubOutlined style={{ fontSize: "20px" }} />
         </Anchor>
       </GlobalCard>

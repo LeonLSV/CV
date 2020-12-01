@@ -16,7 +16,10 @@ export const Card2 = () => {
         <ImgProject src={proyecto1} alt="Proyecto1" />
         <Titular>Petgram</Titular>
         <Descripcion>Instagram de animales</Descripcion>
-        <Anchor2 href="https://github.com/LeonLSV/ReactAvanzado">
+        <Anchor2
+          href="https://github.com/LeonLSV/ReactAvanzado"
+          target="_blank"
+          rel="noreferrer">
           <GithubOutlined style={{ fontSize: "20px" }} />
         </Anchor2>
       </GlobalCard2>

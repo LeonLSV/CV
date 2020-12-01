@@ -27,4 +27,7 @@ export const Anchor2 = styled.a`
   text-decoration: none;
   outline: none;
   color: white;
+  &:hover {
+    color: #73af5c;
+  }
 `;

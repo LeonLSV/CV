@@ -51,3 +51,12 @@ export const ButtonRedes = styled.button`
   margin-top: 29px;
   margin-left: 5px;
 `;
+
+export const AnchorInfo = styled.a`
+  text-decoration: none;
+  outline: none;
+  color: black;
+  &:hover {
+    color: #73af5c;
+  }
+`;

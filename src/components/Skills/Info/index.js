@@ -8,6 +8,7 @@ import {
   ButtonDownload,
   ButtonRedes,
   ContainerButtons,
+  AnchorInfo,
 } from "./styled";
 
 export const Info = () => {
@@ -23,10 +24,22 @@ export const Info = () => {
         <ContainerButtons>
           <ButtonDownload>DESCARGAR CV</ButtonDownload>
           <ButtonRedes>
-            <GithubOutlined />
+            <AnchorInfo
+              href="https://github.com/LeonLSV"
+              title="Read complete"
+              target="_blank"
+              rel="noreferrer">
+              <GithubOutlined />
+            </AnchorInfo>
           </ButtonRedes>
           <ButtonRedes>
-            <LinkedinOutlined />
+            <AnchorInfo
+              href="https://www.linkedin.com/in/ramiro-contreras-león"
+              title="Read complete"
+              target="_blank"
+              rel="noreferrer">
+              <LinkedinOutlined />
+            </AnchorInfo>
           </ButtonRedes>
         </ContainerButtons>
       </GlobalInfo>
