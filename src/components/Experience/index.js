@@ -1,11 +1,12 @@
 import React from "react";
 import { GlobalExperience } from "./styled";
+import { Experiencia } from "./Experiencia";
 
 export const Experience = () => {
   return (
     <>
       <GlobalExperience>
-        <h1>hola</h1>
+        <Experiencia />
       </GlobalExperience>
     </>
   );
