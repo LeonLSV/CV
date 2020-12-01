@@ -7,20 +7,24 @@ export const TitleHeader = styled.h1`
   margin: 0;
   width: 500px;
   font-size: 80px;
-  line-height: 50px;
+  font-weight: bold;
+  line-height: 30px;
 `;
-
-export const Parrafo = styled.p`
-  width: 430px;
-  line-height: 25px;
-`;
-
 export const Title2Header = styled.h1`
   color: white;
   width: 500px;
   margin: 0;
   font-size: 80px;
+  font-weight: bold;
 `;
+
+export const Parrafo = styled.p`
+  width: 380px;
+  font-size: 15px;
+  line-height: 25px;
+  color: white;
+`;
+
 export const Line = styled.div`
   width: 100px;
   height: 1px;

@@ -4,6 +4,7 @@ import { Header } from "./components/Header";
 import { Skills } from "./components/Skills";
 import { Project } from "./components/Project";
 import { Experience } from "./components/Experience";
+import { Estudios } from "./components/Estudios";
 
 export const App = () => {
   return (
@@ -13,6 +14,7 @@ export const App = () => {
       <Skills />
       <Project />
       <Experience />
+      <Estudios />
     </>
   );
 };

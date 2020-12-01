@@ -16,7 +16,7 @@ export const Contreras = styled.h2`
   padding: 0;
   font-size: 2.7rem;
   font-weight: normal;
-  margin-bottom: 20px;
+  margin-top: -1.5rem;
 `;
 
 export const TextoP = styled.p`

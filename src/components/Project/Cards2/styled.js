@@ -14,12 +14,14 @@ export const ImgProject = styled.img`
 export const Titular = styled.h3`
   margin: 10px;
   padding-top: 10px;
+  color: white;
 `;
 
 export const Descripcion = styled.p`
   margin: 0;
   padding-bottom: 10px;
   font-size: 13px;
+  color: white;
 `;
 export const Anchor2 = styled.a`
   text-decoration: none;
