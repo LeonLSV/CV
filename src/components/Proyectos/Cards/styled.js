@@ -8,7 +8,7 @@ export const GlobalCard = styled.section`
 `;
 
 export const ImgProject = styled.img`
-  width: 240px;
+  width: 409px;
   border-radius: 30px;
 `;
 export const Titular = styled.h3`

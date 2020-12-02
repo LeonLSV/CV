@@ -7,13 +7,12 @@ import {
   Descripcion,
   Anchor2,
 } from "./styled";
-import proyecto1 from "../../../images/always.jpeg";
 
 export const Card2 = () => {
   return (
     <>
       <GlobalCard2>
-        <ImgProject src={proyecto1} alt="Proyecto1" />
+        <ImgProject src="" alt="Proyecto1" />
         <Titular>Petgram</Titular>
         <Descripcion>Instagram de animales</Descripcion>
         <Anchor2
