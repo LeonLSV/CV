@@ -19,7 +19,7 @@ export const Proyectos = () => {
     <>
       <Row
         style={{
-          height: "90vh",
+          height: "91vh",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
