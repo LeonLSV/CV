@@ -7,7 +7,6 @@ import proyecto1 from "../../images/always.jpeg";
 
 const contentStyle = {
   color: "#fff",
-  // lineHeight: "20px",
   textAlign: "center",
   background: "transparent",
   height: "520px",
