@@ -5,4 +5,6 @@ export const ImgFondo = styled.img`
   top: 0;
   z-index: -1;
   width: 100%;
+  @media (max-width: 768px) {
+  }
 `;

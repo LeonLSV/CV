@@ -1,9 +1,9 @@
 body {
   margin: 0;
   padding: 0;
-  background: black;
   font-family: "Helvetica", sans-serif;
   color: white;
+  background: black;
 }
 body::-webkit-scrollbar {
   width: 8px;

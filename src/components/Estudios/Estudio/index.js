@@ -17,7 +17,7 @@ export const Estudio = () => {
           año="2007"
           titulo="Escuela Técnica Antártida | Argentina"
           subtitulo="Bachiller Maestro Mayor de Obras"
-          descripcion="Carrera de 3 años donde me recibí con la capacidad de diseñar y calcular la construcción de casas hasta 3 pisos"
+          descripcion="Carrera de 3 años donde me gradué con la capacidad de diseñar y calcular la construcción de casas hasta 3 pisos"
         />
       </GridEstudios>
     </>

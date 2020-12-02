@@ -5,4 +5,7 @@ export const SobreMi = styled.p`
   width: 60px;
   transform: rotate(-90deg);
   font-size: 12px;
+  @media (max-width: 376px) {
+    display: none;
+  }
 `;

@@ -4,6 +4,9 @@ export const GlobalHeader = styled.header`
   display: grid;
   grid-template-columns: 0.5fr 1fr 1fr;
   grid-template-rows: 100vh;
+  @media (max-width: 376px) {
+    display: flex;
+  }
   p {
     grid-column-start: 1;
     grid-column-end: 2;

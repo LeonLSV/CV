@@ -7,4 +7,7 @@ export const Bienvenidos = styled.p`
   color: white;
   z-index: 30;
   text-align: center;
+  @media (max-width: 376px) {
+    display: none;
+  }
 `;

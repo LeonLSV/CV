@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
-export const GlobalTitle = styled.section``;
+export const GlobalTitle = styled.section`
+  @media (max-width: 376px) {
+    margin: 20px 20px;
+  }
+`;
 
 export const TitleHeader = styled.h1`
   color: #73af5c;
@@ -9,6 +13,10 @@ export const TitleHeader = styled.h1`
   font-size: 80px;
   font-weight: bold;
   line-height: 30px;
+  @media (max-width: 376px) {
+    font-size: 30px;
+    line-height: 30px;
+  }
 `;
 export const Title2Header = styled.h1`
   color: white;
@@ -16,6 +24,10 @@ export const Title2Header = styled.h1`
   margin: 0;
   font-size: 80px;
   font-weight: bold;
+  @media (max-width: 376px) {
+    font-size: 30px;
+    line-height: 30px;
+  }
 `;
 
 export const Parrafo = styled.p`
@@ -23,6 +35,12 @@ export const Parrafo = styled.p`
   font-size: 15px;
   line-height: 25px;
   color: white;
+  @media (max-width: 376px) {
+    font-size: 10px;
+    width: 200px;
+    line-height: 15px;
+    margin-top: 25px;
+  }
 `;
 
 export const Line = styled.div`
@@ -30,4 +48,7 @@ export const Line = styled.div`
   height: 1px;
   margin-top: 100px;
   background: #73af5c;
+  @media (max-width: 376px) {
+    display: none;
+  }
 `;
