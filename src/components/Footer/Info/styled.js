@@ -17,7 +17,7 @@ export const FondoInfo = styled.img`
   margin: -80px auto;
 `;
 
-export const Ramiro = styled.h1`
+export const Ramiro1 = styled.h1`
   font-weight: bold;
   font-size: 2.7rem;
   margin: 0;
@@ -28,7 +28,7 @@ export const Ramiro = styled.h1`
   position: relative;
   z-index: 20;
 `;
-export const Contreras = styled.h2`
+export const Contreras1 = styled.h2`
   margin: 0;
   padding: 0;
   font-size: 2.7rem;
@@ -41,7 +41,7 @@ export const Contreras = styled.h2`
   z-index: 20;
 `;
 
-export const TextoP = styled.p`
+export const TextoP1 = styled.p`
   margin-top: 10px;
   padding: 0;
   font-weight: 600;
@@ -52,7 +52,7 @@ export const TextoP = styled.p`
   z-index: 20;
 `;
 
-export const ContainerButtons = styled.div`
+export const ContainerButtons1 = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -61,7 +61,7 @@ export const ContainerButtons = styled.div`
   position: relative;
   z-index: 20;
 `;
-export const ButtonDownload = styled.button`
+export const ButtonDownload1 = styled.button`
   outline: none;
   background: linear-gradient(90deg, #559b65, #94c453);
   border: none;
@@ -73,7 +73,7 @@ export const ButtonDownload = styled.button`
   cursor: pointer;
   margin-right: 10px;
 `;
-export const ButtonRedes = styled.button`
+export const ButtonRedes1 = styled.button`
   border: none;
   outline: none;
   background: transparent;
@@ -82,7 +82,7 @@ export const ButtonRedes = styled.button`
   margin-left: 5px;
 `;
 
-export const AnchorInfo = styled.a`
+export const AnchorInfo1 = styled.a`
   text-decoration: none;
   outline: none;
   color: white;
