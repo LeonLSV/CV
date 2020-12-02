@@ -5,6 +5,7 @@ import { Skills } from "./components/Skills";
 import { Project } from "./components/Project";
 import { Experience } from "./components/Experience";
 import { Estudios } from "./components/Estudios";
+import { Footer } from "./components/Footer";
 
 export const App = () => {
   return (
@@ -15,6 +16,7 @@ export const App = () => {
       <Project />
       <Experience />
       <Estudios />
+      <Footer />
     </>
   );
 };
