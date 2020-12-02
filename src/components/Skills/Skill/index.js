@@ -9,7 +9,7 @@ export const Skill = () => {
           HTML
         </TextUl>
         <TextUl>CSS</TextUl>
-        <TextUl>JAVASCRIT</TextUl>
+        <TextUl>JAVASCRIPT</TextUl>
 
         <TextUl>REACT.JS</TextUl>
         <TextUl>
