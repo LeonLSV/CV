@@ -5,6 +5,10 @@ export const GlobalInfo = styled.div`
   width: 100%;
   margin-left: 100px;
   margin-top: -200px;
+  @media (max-width: 460px) {
+    margin-left: 30px;
+    margin-top: -0px;
+  }
 `;
 
 export const Ramiro = styled.h1`
@@ -12,6 +16,10 @@ export const Ramiro = styled.h1`
   font-size: 2.7rem;
   margin: 0;
   padding: 0;
+  @media (max-width: 460px) {
+    font-size: 1.3rem;
+    width: 200px;
+  }
 `;
 export const Contreras = styled.h2`
   margin: 0;
@@ -19,6 +27,11 @@ export const Contreras = styled.h2`
   font-size: 2.7rem;
   font-weight: normal;
   margin-top: -1.5rem;
+  @media (max-width: 460px) {
+    font-size: 1.3rem;
+    margin-top: -6px;
+    width: 200px;
+  }
 `;
 
 export const TextoP = styled.p`
@@ -26,12 +39,21 @@ export const TextoP = styled.p`
   padding: 0;
   font-weight: 600;
   margin-bottom: 0;
+  @media (max-width: 460px) {
+    font-size: 0.9rem;
+    width: 200px;
+    margin-top: 2px;
+  }
 `;
 
 export const ContainerButtons = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
+  @media (max-width: 460px) {
+    width: 300px;
+    margin-top: 15px;
+  }
 `;
 export const ButtonDownload = styled.button`
   outline: none;
@@ -44,6 +66,11 @@ export const ButtonDownload = styled.button`
   margin-top: 29px;
   cursor: pointer;
   margin-right: 10px;
+  @media (max-width: 460px) {
+    width: 115px;
+    height: 40px;
+    margin-top: 0px;
+  }
 `;
 export const ButtonRedes = styled.button`
   border: none;
@@ -52,6 +79,10 @@ export const ButtonRedes = styled.button`
   font-size: 25px;
   margin-top: 29px;
   margin-left: 5px;
+  @media (max-width: 460px) {
+    margin-top: 0px;
+    font-size: 25px;
+  }
 `;
 
 export const AnchorInfo = styled.a`

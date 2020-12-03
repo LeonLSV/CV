@@ -4,7 +4,7 @@ export const GlobalHeader = styled.header`
   display: grid;
   grid-template-columns: 0.5fr 1fr 1fr;
   grid-template-rows: 100vh;
-  @media (max-width: 376px) {
+  @media (max-width: 460px) {
     display: flex;
   }
   p {

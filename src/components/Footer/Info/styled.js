@@ -3,6 +3,9 @@ import styled from "styled-components";
 export const GlobalFondoInfo = styled.div`
   width: 80%;
   margin: 0 auto;
+  @media (max-width: 460px) {
+    margin: 0 0;
+  }
 `;
 
 export const GlobalInfo = styled.div`
@@ -15,6 +18,10 @@ export const FondoInfo = styled.img`
   position: absolute;
   z-index: 1;
   margin: -80px auto;
+  @media (max-width: 460px) {
+    margin: -10px auto;
+    width: 100%;
+  }
 `;
 
 export const Ramiro1 = styled.h1`
@@ -27,6 +34,11 @@ export const Ramiro1 = styled.h1`
   margin-left: 100px;
   position: relative;
   z-index: 20;
+  @media (max-width: 460px) {
+    font-size: 1rem;
+    width: 200px;
+    margin-left: 20px;
+  }
 `;
 export const Contreras1 = styled.h2`
   margin: 0;
@@ -39,6 +51,12 @@ export const Contreras1 = styled.h2`
   margin-left: 100px;
   position: relative;
   z-index: 20;
+  @media (max-width: 460px) {
+    font-size: 1rem;
+    margin-top: -6px;
+    width: 200px;
+    margin-left: 20px;
+  }
 `;
 
 export const TextoP1 = styled.p`
@@ -50,6 +68,12 @@ export const TextoP1 = styled.p`
   margin-left: 100px;
   position: relative;
   z-index: 20;
+  @media (max-width: 460px) {
+    font-size: 0.6rem;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 2px;
+  }
 `;
 
 export const ContainerButtons1 = styled.div`
@@ -60,6 +84,12 @@ export const ContainerButtons1 = styled.div`
   margin-left: 100px;
   position: relative;
   z-index: 20;
+  @media (max-width: 460px) {
+    font-size: 0.5rem;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 5px;
+  }
 `;
 export const ButtonDownload1 = styled.button`
   outline: none;
@@ -72,6 +102,11 @@ export const ButtonDownload1 = styled.button`
   margin-top: 29px;
   cursor: pointer;
   margin-right: 10px;
+  @media (max-width: 460px) {
+    width: 105px;
+    height: 25px;
+    margin-top: 0px;
+  }
 `;
 export const ButtonRedes1 = styled.button`
   border: none;
@@ -80,6 +115,10 @@ export const ButtonRedes1 = styled.button`
   font-size: 25px;
   margin-top: 29px;
   margin-left: 5px;
+  @media (max-width: 460px) {
+    margin-top: 0px;
+    font-size: 15px;
+  }
 `;
 
 export const AnchorInfo1 = styled.a`

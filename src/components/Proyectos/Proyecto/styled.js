@@ -5,4 +5,7 @@ export const Proyectos = styled.p`
   transform: rotate(-90deg);
   font-size: 12px;
   color: white;
+  @media (max-width: 460px) {
+    display: none;
+  }
 `;
