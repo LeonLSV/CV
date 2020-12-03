@@ -7,6 +7,7 @@ export const GlobalLi = styled.li`
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 0.1fr 1fr 0.1fr 1fr;
   margin-right: 100px;
+  margin-top: -200px;
 `;
 
 export const TextUl = styled.h4`

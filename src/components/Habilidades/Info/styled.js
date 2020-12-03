@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const GlobalInfo = styled.div`
   color: black;
   width: 100%;
+  margin-left: 100px;
+  margin-top: -200px;
 `;
 
 export const Ramiro = styled.h1`

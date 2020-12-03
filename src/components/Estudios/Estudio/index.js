@@ -14,7 +14,7 @@ export const Estudio = () => {
           descripcion="Programa personalizado de entrenamiento intensivo con profesionales del rubro y asesorías personales"
         />
         <ListEstudio
-          año="2007"
+          año="2005/2007"
           titulo="Escuela Técnica Antártida | Argentina"
           subtitulo="Bachiller Maestro Mayor de Obras"
           descripcion="Carrera de 3 años donde me gradué con la capacidad de diseñar y calcular la construcción de casas hasta 3 pisos"
