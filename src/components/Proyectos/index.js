@@ -19,16 +19,16 @@ export const Proyectos = () => {
     <>
       <Row
         style={{
-          height: "91vh",
+          height: "100vh",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
           background: "black",
         }}>
-        <Col span={1}>
+        <Col lg={1} xs={0}>
           <Proyecto />
         </Col>
-        <Col span={11} style={{ marginTop: "-200px" }}>
+        <Col lg={11} xs={24} style={{ marginTop: "-150px" }}>
           <Carousel autoplay>
             <div>
               <div style={contentStyle}>
@@ -52,7 +52,7 @@ export const Proyectos = () => {
             </div>
           </Carousel>
         </Col>
-        <Col span={11} style={{ marginTop: "-200px" }}>
+        <Col lg={11} xs={0} style={{ marginTop: "-150px" }}>
           <Carousel autoplay>
             <div>
               <div style={contentStyle}>
@@ -76,7 +76,7 @@ export const Proyectos = () => {
             </div>
           </Carousel>
         </Col>
-        <Col span={1}></Col>
+        <Col lg={1} xs={0}></Col>
       </Row>
     </>
   );

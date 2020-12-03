@@ -2,12 +2,20 @@ import styled from "styled-components";
 
 export const GlobalInfo = styled.div`
   color: black;
-  width: 100%;
+  width: auto;
   margin-left: 100px;
   margin-top: -200px;
   @media (max-width: 460px) {
     margin-left: 30px;
     margin-top: -0px;
+  }
+  @media (max-width: 992px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: -50px;
   }
 `;
 
