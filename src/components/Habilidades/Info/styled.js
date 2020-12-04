@@ -83,7 +83,7 @@ export const ButtonDownload = styled.button`
     width: 115px;
     height: 40px;
     margin-top: 0px;
-    font-size: 12px;
+    font-size: 10px;
   }
 `;
 export const ButtonRedes = styled.button`

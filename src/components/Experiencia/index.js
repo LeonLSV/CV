@@ -50,6 +50,16 @@ export const Experiencia = () => {
             <Col lg={23} xs={24}>
               <ContenedorCol>
                 <Trabajo
+                  año="2015/2020"
+                  titulo="Fundador y Mentor | León Sonido Virtual"
+                  subtitulo="Escuela Online"
+                  descripcion="Educador y generador de contenido de alto valor con alcance a todos los países de habla hispana. Mejorando la educación online y creando comunidades"
+                />
+              </ContenedorCol>
+            </Col>
+            <Col lg={23} xs={24}>
+              <ContenedorCol>
+                <Trabajo
                   año="2018"
                   titulo="Blessure | Guatemala"
                   subtitulo="Director del Departamento de Audio"
