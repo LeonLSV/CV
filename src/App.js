@@ -1,8 +1,8 @@
 import React from "react";
 import { Header } from "./components/Header";
 import { Habilidades } from "./components/Habilidades";
-import { Experience } from "./components/Experience";
-import { Estudios } from "./components/Estudios";
+import { Experiencia } from "./components/Experiencia";
+import { Study } from "./components/Study";
 import { Footer } from "./components/Footer";
 import { Proyectos } from "./components/Proyectos";
 
@@ -12,8 +12,8 @@ export const App = () => {
       <Header />
       <Habilidades />
       <Proyectos />
-      <Experience />
-      <Estudios />
+      <Experiencia />
+      <Study />
       <Footer />
     </>
   );
