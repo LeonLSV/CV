@@ -16,6 +16,9 @@ export const GlobalLi = styled.li`
     margin-top: -70px;
     margin-bottom: 80px;
   }
+  @media (max-width: 460px) {
+    width: 100%;
+  }
 `;
 
 export const TextUl = styled.h4`
