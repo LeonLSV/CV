@@ -3,6 +3,7 @@ import { Row, Col } from "antd";
 import { Layout } from "antd";
 import { Experiencia1 } from "./Experiencia1";
 import { Trabajo } from "./Trabajo";
+import { ContenedorSider, ContenedorCol } from "../../components/Study/styled";
 
 const { Sider } = Layout;
 
@@ -16,42 +17,47 @@ export const Experiencia = () => {
           alignItems: "center",
           background: "#e6e6e6",
         }}>
-        <Sider
-          style={{
-            display: "flex",
-            justifyContent: "flex-start",
-            alignItems: "center",
-            height: "100px",
-            background: "#e6e6e6",
-          }}>
-          <Experiencia1 />
-        </Sider>
+        <ContenedorSider>
+          <Sider
+            style={{
+              display: "flex",
+              justifyContent: "flex-start",
+              alignItems: "center",
+              height: "100px",
+              background: "#e6e6e6",
+            }}>
+            <Experiencia1 />
+          </Sider>
+        </ContenedorSider>
         <Layout>
           <Row
             style={{
               height: "100vh",
               display: "flex",
-              justifyContent: "center",
               alignItems: "center",
               background: "#e6e6e6",
             }}>
             <Col lg={23} xs={24}>
-              <Trabajo
-                año="2018/2020"
-                titulo="Shows en Vivo | Argentina, Guatemala, Colombia"
-                subtitulo="Ingeniero de Sonido"
-                descripcion="Ingeniero de Sonido con artistas como: Manuel Turizo (Col), Dios Salve a la Reina (Arg), Benjamin Amadeo (Arg), Gaby Moreno (Gt)."
-              />
+              <ContenedorCol>
+                <Trabajo
+                  año="2018/2020"
+                  titulo="Shows en Vivo | Argentina, Guatemala, Colombia"
+                  subtitulo="Ingeniero de Sonido"
+                  descripcion="Ingeniero de Sonido con artistas como: Manuel Turizo (Col), Dios Salve a la Reina (Arg), Benjamin Amadeo (Arg), Gaby Moreno (Gt)."
+                />
+              </ContenedorCol>
             </Col>
             <Col lg={23} xs={24}>
-              <Trabajo
-                año="2018"
-                titulo="Blessure | Guatemala"
-                subtitulo="Director del Departamento de Audio"
-                descripcion="Lider del área de Audio dirigiendo la organización y
+              <ContenedorCol>
+                <Trabajo
+                  año="2018"
+                  titulo="Blessure | Guatemala"
+                  subtitulo="Director del Departamento de Audio"
+                  descripcion="Lider del área de Audio dirigiendo la organización y
 logística de los eventos y capacitando al personal a
 cargo."
-              />
+                />
+              </ContenedorCol>
             </Col>
           </Row>
         </Layout>

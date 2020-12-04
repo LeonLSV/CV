@@ -17,7 +17,7 @@ export const AñoTrabajo = styled.h3`
   margin: 0;
   color: black;
   margin-top: 40px;
-  min-width: 100px;
+  width: 100px;
 `;
 export const TituloTrabajo = styled.h1`
   font-size: 21px;
@@ -25,6 +25,7 @@ export const TituloTrabajo = styled.h1`
   font-weight: 600;
   color: black;
   margin-top: 40px;
+  width: 500px;
 `;
 
 export const SubtituloTrabajo = styled.h4`
