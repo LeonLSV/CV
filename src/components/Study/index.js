@@ -40,22 +40,24 @@ export const Study = () => {
             <Col lg={23} xs={24}>
               <ContenedorCol>
                 <ListEstudio
-                  año="2018/2020"
-                  titulo="Shows en Vivo | Argentina, Guatemala, Colombia"
-                  subtitulo="Ingeniero de Sonido"
-                  descripcion="Ingeniero de Sonido con artistas como: Manuel Turizo (Col), Dios Salve a la Reina (Arg), Benjamin Amadeo (Arg), Gaby Moreno (Gt)."
+                  año="2020"
+                  titulo="Platzi Master | Colombia"
+                  subtitulo="Front-End Developer"
+                  descripcion="Programa personalizado de entrenamiento
+intensivo con profesionales del rubro y asesorías
+personalizadas."
                 />
               </ContenedorCol>
             </Col>
             <Col lg={23} xs={24}>
               <ContenedorCol>
                 <ListEstudio
-                  año="2018"
-                  titulo="Blessure | Guatemala"
-                  subtitulo="Director del Departamento de Audio"
-                  descripcion="Lider del área de Audio dirigiendo la organización y
-logística de los eventos y capacitando al personal a
-cargo."
+                  año="2007"
+                  titulo="Escuela Técnica Antártida | Argentina"
+                  subtitulo="Bachiller Maestro Mayor de Obra"
+                  descripcion="Especialización de 3 años con la capacidad de
+diseñar y calcular la construcción de casas
+personalizadas hasta de 3 pisos."
                 />
               </ContenedorCol>
             </Col>

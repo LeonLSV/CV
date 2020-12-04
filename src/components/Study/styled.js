@@ -12,12 +12,3 @@ export const ContenedorCol = styled.div`
     justify-content: center;
   }
 `;
-export const ContenedorRow = styled.div`
-  display: flex;
-  justify-content: flex-start;
-
-  @media (max-width: 992px) {
-    display: grid;
-    justify-content: center;
-  }
-`;

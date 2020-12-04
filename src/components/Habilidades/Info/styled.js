@@ -59,7 +59,7 @@ export const ContainerButtons = styled.div`
   flex-direction: row;
   align-items: center;
   @media (max-width: 460px) {
-    width: 300px;
+    width: 200px;
     margin-top: 15px;
   }
 `;
@@ -78,6 +78,7 @@ export const ButtonDownload = styled.button`
     width: 115px;
     height: 40px;
     margin-top: 0px;
+    font-size: 12px;
   }
 `;
 export const ButtonRedes = styled.button`
