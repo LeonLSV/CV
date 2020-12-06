@@ -32,6 +32,8 @@ export const Ramiro = styled.h1`
   @media (max-width: 460px) {
     font-size: 1.3rem;
     width: 200px;
+    display: flex;
+    justify-content: center;
   }
 `;
 export const Contreras = styled.h2`
@@ -44,6 +46,8 @@ export const Contreras = styled.h2`
     font-size: 1.3rem;
     margin-top: -6px;
     width: 200px;
+    display: flex;
+    justify-content: center;
   }
 `;
 
@@ -54,8 +58,10 @@ export const TextoP = styled.p`
   margin-bottom: 0;
   @media (max-width: 460px) {
     font-size: 0.9rem;
-    width: 200px;
+    width: 290px;
     margin-top: 2px;
+    display: flex;
+    justify-content: center;
   }
 `;
 
@@ -66,6 +72,8 @@ export const ContainerButtons = styled.div`
   @media (max-width: 460px) {
     width: 200px;
     margin-top: 15px;
+    display: flex;
+    justify-content: center;
   }
 `;
 export const ButtonDownload = styled.button`

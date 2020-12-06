@@ -18,6 +18,7 @@ export const GlobalLi = styled.li`
   }
   @media (max-width: 460px) {
     width: 100%;
+    max-width: auto;
   }
 `;
 

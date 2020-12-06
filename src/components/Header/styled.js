@@ -4,16 +4,25 @@ export const GlobalHeader = styled.header`
   display: grid;
   grid-template-columns: 0.5fr 1fr 1fr;
   grid-template-rows: 100vh;
+  @media (max-width: 972px) {
+    grid-template-rows: 80vh;
+  }
   @media (max-width: 900px) {
     grid-template-rows: 70vh;
   }
-  @media (max-width: 600px) {
+  @media (max-width: 681px) {
+    grid-template-rows: 60vh;
+  }
+  @media (max-width: 610px) {
     grid-template-rows: 50vh;
   }
-  @media (max-width: 420px) {
+  @media (max-width: 490px) {
+    grid-template-rows: 45vh;
+  }
+  @media (max-width: 440px) {
     grid-template-rows: 40vh;
   }
-  @media (max-width: 340px) {
+  @media (max-width: 393px) {
     grid-template-rows: 30vh;
   }
   p {

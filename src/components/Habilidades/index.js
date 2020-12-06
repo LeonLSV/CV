@@ -3,6 +3,7 @@ import { Row, Col } from "antd";
 import { Sobre } from "./Sobre";
 import { Skill } from "./Skill";
 import { Info } from "./Info";
+import "./index.css";
 
 export const Habilidades = () => {
   return (
