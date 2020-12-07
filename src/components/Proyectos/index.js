@@ -6,6 +6,7 @@ import { Carousel } from "antd";
 import proyecto1 from "../../images/always.png";
 import cuestionario from "../../images/cuestionario.png";
 import podcast from "../../images/podcast.png";
+import petgram from "../../images/petgram.png";
 
 const contentStyle = {
   color: "#fff",
@@ -59,7 +60,7 @@ export const Proyectos = () => {
                 <Card
                   titulo="Petgram"
                   descripcion="La red social de los animales"
-                  image={proyecto1}
+                  image={petgram}
                   href="https://github.com/LeonLSV/ReactAvanzado"
                 />
               </div>

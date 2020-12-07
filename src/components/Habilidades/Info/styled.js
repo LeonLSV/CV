@@ -70,7 +70,7 @@ export const ContainerButtons = styled.div`
   flex-direction: row;
   align-items: center;
   @media (max-width: 460px) {
-    width: 200px;
+    width: 220px;
     margin-top: 15px;
     display: flex;
     justify-content: center;
@@ -88,7 +88,7 @@ export const ButtonDownload = styled.button`
   cursor: pointer;
   margin-right: 10px;
   @media (max-width: 460px) {
-    width: 115px;
+    width: 200px;
     height: 40px;
     margin-top: 0px;
     font-size: 10px;

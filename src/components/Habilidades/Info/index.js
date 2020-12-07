@@ -19,10 +19,16 @@ export const Info = () => {
         <Contreras>Contreras León</Contreras>
         <TextoP>Nacionalidad: Argentino</TextoP>
         <TextoP>Email: ramiroleon@leonsonidovirtual.com</TextoP>
-        <TextoP>Teléfono: 302 228 2334</TextoP>
+        {/* <TextoP>Teléfono: 302 228 2334</TextoP> */}
         <TextoP>Locación: Medellín, Colombia</TextoP>
         <ContainerButtons>
-          <ButtonDownload>DESCARGAR CV</ButtonDownload>
+          <AnchorInfo
+            href="https://leonsonidovirtual.com/wp-content/uploads/2020/12/CV_RamiroContrerasLeon.pdf"
+            title="Read complete"
+            target="_blank"
+            rel="noreferrer">
+            <ButtonDownload>DESCARGAR CV</ButtonDownload>
+          </AnchorInfo>
           <ButtonRedes>
             <AnchorInfo
               href="https://github.com/LeonLSV"
