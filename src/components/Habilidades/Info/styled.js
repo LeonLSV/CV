@@ -88,8 +88,8 @@ export const ButtonDownload = styled.button`
   cursor: pointer;
   margin-right: 10px;
   @media (max-width: 460px) {
-    width: 200px;
     height: 40px;
+    width: 150px;
     margin-top: 0px;
     font-size: 10px;
   }
