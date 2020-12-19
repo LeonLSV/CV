@@ -13,7 +13,6 @@ export const Habilidades = () => {
         style={{
           height: "100vh",
           display: "flex",
-          justifyContent: "center",
           alignItems: "center",
           background: "#e6e6e6",
         }}>
