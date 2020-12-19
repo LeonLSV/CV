@@ -52,6 +52,16 @@ personalizadas."
             <Col lg={23} xs={24}>
               <ContenedorCol>
                 <ListEstudio
+                  año="2013-2020"
+                  titulo="Cursos Varios"
+                  subtitulo="Audio en vivo"
+                  descripcion="He finalizado gran cantidad de capacitaciones y certificaciones oficiales tales como: Allen And Heath, Sennheiser, Meyer Sound, Digico, Shure, Smaart Live, entre otras... "
+                />
+              </ContenedorCol>
+            </Col>
+            <Col lg={23} xs={24}>
+              <ContenedorCol>
+                <ListEstudio
                   año="2007"
                   titulo="Escuela Técnica Antártida | Argentina"
                   subtitulo="Bachiller Maestro Mayor de Obra"
