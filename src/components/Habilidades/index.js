@@ -9,6 +9,7 @@ export const Habilidades = () => {
   return (
     <>
       <Row
+        className="rowhabilidades"
         gutter={[1, 1]}
         style={{
           height: "100vh",
