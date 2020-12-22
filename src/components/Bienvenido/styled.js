@@ -1,12 +1,13 @@
 import styled from "styled-components";
 
 export const Bienvenidos = styled.p`
-  width: 60px;
+  width: 100px;
   transform: rotate(-90deg);
-  font-size: 12px;
+  font-size: 18px;
   color: white;
   z-index: 30;
   text-align: center;
+
   @media (max-width: 992px) {
     display: none;
   }
