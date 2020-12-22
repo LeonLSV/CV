@@ -45,7 +45,7 @@ export const Study = () => {
                   subtitulo="Front-End Developer"
                   descripcion="Programa personalizado de entrenamiento
 intensivo con profesionales del rubro y asesorías
-personalizadas."
+personalizadas. Solo aceptan al top 0.1% de los mejores estudiantes cada mes."
                 />
               </ContenedorCol>
             </Col>
