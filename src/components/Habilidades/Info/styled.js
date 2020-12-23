@@ -13,7 +13,7 @@ export const GlobalInfo = styled.div`
     margin: 0;
     margin-top: -50px;
   }
-  @media (max-width: 460px) {
+  @media (max-width: 991px) {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,7 +29,7 @@ export const Ramiro = styled.h1`
   font-size: 2.7rem;
   margin: 0;
   padding: 0;
-  @media (max-width: 460px) {
+  @media (max-width: 991px) {
     font-size: 1.3rem;
     width: 200px;
     display: flex;
@@ -42,7 +42,7 @@ export const Contreras = styled.h2`
   font-size: 2.7rem;
   font-weight: normal;
   margin-top: -1.5rem;
-  @media (max-width: 460px) {
+  @media (max-width: 991px) {
     font-size: 1.3rem;
     margin-top: -6px;
     width: 200px;
@@ -56,7 +56,7 @@ export const TextoP = styled.p`
   padding: 0;
   font-weight: 600;
   margin-bottom: 0;
-  @media (max-width: 460px) {
+  @media (max-width: 991px) {
     font-size: 0.9rem;
     width: 290px;
     margin-top: 2px;
@@ -69,7 +69,7 @@ export const ContainerButtons = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  @media (max-width: 460px) {
+  @media (max-width: 991px) {
     width: 220px;
     margin-top: 15px;
     display: flex;
@@ -87,7 +87,7 @@ export const ButtonDownload = styled.button`
   margin-top: 29px;
   cursor: pointer;
   margin-right: 10px;
-  @media (max-width: 460px) {
+  @media (max-width: 991px) {
     height: 40px;
     width: 150px;
     margin-top: 0px;
@@ -101,7 +101,7 @@ export const ButtonRedes = styled.button`
   font-size: 25px;
   margin-top: 29px;
   margin-left: 5px;
-  @media (max-width: 460px) {
+  @media (max-width: 991px) {
     margin-top: 0px;
     font-size: 25px;
   }

@@ -18,8 +18,8 @@ export const Title = () => {
           <span style={{ color: "#73af5c" }}>
             enfocado en el desarrollo de aplicaciones web con React.
           </span>{" "}
-          Pro-activo, con espíritu de liderazgo y versátil en la adaptación de
-          nuevos entornos y retos.
+          Pro-activo y dinámico, con capacidad de rápido aprendizaje, creativo y
+          versátil en la adaptación de nuevos entornos y retos.
         </Parrafo>
         <Line></Line>
       </GlobalTitle>

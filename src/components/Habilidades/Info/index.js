@@ -19,7 +19,6 @@ export const Info = () => {
         <Contreras>Contreras León</Contreras>
         <TextoP>Nacionalidad: Argentino</TextoP>
         <TextoP>Email: ramiroleon@leonsonidovirtual.com</TextoP>
-        {/* <TextoP>Teléfono: 302 228 2334</TextoP> */}
         <TextoP>Locación: Medellín, Colombia</TextoP>
         <ContainerButtons>
           <AnchorInfo

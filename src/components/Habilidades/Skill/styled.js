@@ -5,7 +5,7 @@ export const GlobalLi = styled.li`
   color: black;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 0.1fr 1fr 0.1fr 1fr;
+  grid-template-rows: 1fr 0.1fr 1fr 0.1fr 1fr 0.1fr 1fr;
   margin-right: 100px;
   margin-top: -200px;
   @media (max-width: 1120px) {
