@@ -6,7 +6,9 @@ export const Card = (props) => {
   return (
     <>
       <GlobalCard>
-        <ImgProject src={props.image} alt="Proyecto1" />
+        <Anchor href={props.hrefImg} target="_blank" rel="noreferrer">
+          <ImgProject src={props.image} alt="Proyecto1" />
+        </Anchor>
         <Titular>{props.titulo}</Titular>
         <Descripcion>{props.descripcion}</Descripcion>
         <Anchor href={props.href} target="_blank" rel="noreferrer">

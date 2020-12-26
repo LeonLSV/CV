@@ -36,6 +36,7 @@ export const Proyectos = () => {
                 <Card
                   titulo="Always Update"
                   descripcion="Diario Digital con Scraping de noticias"
+                  hrefImg="https://diario-digital.vercel.app/"
                   image={proyecto1}
                   href="https://github.com/LeonLSV/DiarioDigital"
                 />
@@ -46,6 +47,7 @@ export const Proyectos = () => {
                 <Card
                   titulo="Cuestionario JS"
                   descripcion="Cuestionario del curso de Ajuste de Sistemas de sonido"
+                  hrefImg="https://leonlsv.github.io/Cuestionario/"
                   image={cuestionario}
                   href="https://github.com/LeonLSV/Cuestionario"
                 />
@@ -60,6 +62,7 @@ export const Proyectos = () => {
                 <Card
                   titulo="Petgram"
                   descripcion="La red social de los animales"
+                  hrefImg="https://react-avanzado-eight.vercel.app/"
                   image={petgram}
                   href="https://github.com/LeonLSV/ReactAvanzado"
                 />
@@ -70,6 +73,7 @@ export const Proyectos = () => {
                 <Card
                   titulo="Podcasts"
                   descripcion="Aplicación Web para escuchar podcasts"
+                  hrefImg="https://next-js-pi-opal.vercel.app/"
                   image={podcast}
                   href="https://github.com/LeonLSV/NextJs"
                 />
