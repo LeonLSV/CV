@@ -41,6 +41,7 @@ export const Experiencia = () => {
               <ContenedorCol>
                 <Trabajo
                   año="2018/2020"
+                  linktitle="https://www.instagram.com/manuelturizo"
                   titulo="Shows en Vivo | Argentina, Guatemala, Colombia"
                   subtitulo="Ingeniero de Sonido"
                   descripcion="Ingeniero de Sonido con artistas como: Manuel Turizo (Col), Dios Salve a la Reina (Arg), Benjamin Amadeo (Arg), Gaby Moreno (Gt)."
@@ -51,6 +52,7 @@ export const Experiencia = () => {
               <ContenedorCol>
                 <Trabajo
                   año="2015/2020"
+                  linktitle="https://www.leonsonidovirtual.com"
                   titulo="Fundador y Mentor | León Sonido Virtual"
                   subtitulo="Escuela Online"
                   descripcion="Educador con una población aproximada de 1000 estudiantes a lo largo de la existencia y generador de contenido de alto valor con alcance a todos los países de habla hispana. Mejorando la educación online y creando comunidades"
@@ -61,6 +63,7 @@ export const Experiencia = () => {
               <ContenedorCol>
                 <Trabajo
                   año="2018"
+                  linktitle="https://www.blessureguatemala.com/"
                   titulo="Blessure | Guatemala"
                   subtitulo="Director del Departamento de Audio"
                   descripcion="Lider del área de Audio dirigiendo la organización y

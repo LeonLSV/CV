@@ -41,6 +41,7 @@ export const Study = () => {
               <ContenedorCol>
                 <ListEstudio
                   año="2020"
+                  linktitle="https://platzi.com/blog/que-es-platzi-master/"
                   titulo="Platzi Master | Colombia"
                   subtitulo="Front-End Developer"
                   descripcion="Programa personalizado de entrenamiento
@@ -53,6 +54,7 @@ personalizadas. Solo aceptan al top 0.1% de los mejores estudiantes cada mes."
               <ContenedorCol>
                 <ListEstudio
                   año="2013/2020"
+                  linktitle="https://meyersound.com/"
                   titulo="Cursos Varios"
                   subtitulo="Audio en vivo"
                   descripcion="He finalizado gran cantidad de capacitaciones y certificaciones oficiales tales como: Allen And Heath, Sennheiser, Meyer Sound, Digico, Shure, Smaart Live, entre otras... "

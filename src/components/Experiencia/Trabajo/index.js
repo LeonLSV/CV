@@ -7,6 +7,7 @@ import {
   AñoTrabajo,
   GlobalExperiencias,
 } from "./styled";
+import { AnchorInfo } from "../../Habilidades/Info/styled.js";
 
 export const Trabajo = (props) => {
   return (
@@ -15,7 +16,15 @@ export const Trabajo = (props) => {
         <AñoTrabajo>{props.año}</AñoTrabajo>
         <LineTrabajo></LineTrabajo>
         <div>
-          <TituloTrabajo>{props.titulo}</TituloTrabajo>
+          <TituloTrabajo>
+            <AnchorInfo
+              href={props.linktitle}
+              title="Read more"
+              target="_blank"
+              rel="noreferrer">
+              {props.titulo}
+            </AnchorInfo>
+          </TituloTrabajo>
           <SubtituloTrabajo>{props.subtitulo}</SubtituloTrabajo>
           <DescripcionTrabajo>{props.descripcion}</DescripcionTrabajo>
         </div>
