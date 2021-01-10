@@ -60,7 +60,7 @@ export const Proyectos = () => {
             <div>
               <div style={contentStyle}>
                 <Card
-                  titulo="Estereo Fund"
+                  titulo="Stereo Fund"
                   descripcion="Empresa dedicada a la renta de equipos para el espectaculo"
                   hrefImg="https://stereofund.com.mx/"
                   image={estereofund}

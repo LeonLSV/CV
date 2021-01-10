@@ -22,7 +22,7 @@ export const Info = () => {
         <TextoP>Locación: Medellín, Colombia</TextoP>
         <ContainerButtons>
           <AnchorInfo
-            href="https://leonsonidovirtual.com/wp-content/uploads/2020/12/CV_RamiroContrerasLeon.pdf"
+            href="https://leonsonidovirtual.com/wp-content/uploads/2021/01/CV_RamiroContrerasLeon.pdf"
             title="Read complete"
             target="_blank"
             rel="noreferrer">
