@@ -57,7 +57,7 @@ personalizadas. Solo aceptan al top 0.1% de los mejores estudiantes cada mes."
                   linktitle="https://meyersound.com/"
                   titulo="Cursos Varios"
                   subtitulo="Audio en vivo"
-                  descripcion="He finalizado gran cantidad de capacitaciones y certificaciones oficiales tales como: Allen And Heath, Sennheiser, Meyer Sound, Digico, Shure, Smaart Live, entre otras... "
+                  descripcion="He finalizado gran cantidad de capacitaciones y certificaciones oficiales tales como: Allen And Heath, Sennheiser, Meyer Sound, Digico, Shure, Smaart Live, entre otras. "
                 />
               </ContenedorCol>
             </Col>

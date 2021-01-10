@@ -55,7 +55,7 @@ export const Experiencia = () => {
                   linktitle="https://www.leonsonidovirtual.com"
                   titulo="Fundador y Mentor | León Sonido Virtual"
                   subtitulo="Escuela Online"
-                  descripcion="Educador con una población aproximada de 1000 estudiantes a lo largo de la existencia y generador de contenido de alto valor con alcance a todos los países de habla hispana. Mejorando la educación online y creando comunidades"
+                  descripcion="Educador con una población aproximada de 1000 estudiantes a lo largo de la existencia y generador de contenido de alto valor con alcance a todos los países de habla hispana. Mejorando la educación online y creando comunidades."
                 />
               </ContenedorCol>
             </Col>

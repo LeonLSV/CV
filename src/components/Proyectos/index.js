@@ -3,10 +3,10 @@ import { Row, Col } from "antd";
 import { Proyecto } from "./Proyecto";
 import { Card } from "./Cards";
 import { Carousel } from "antd";
-import proyecto1 from "../../images/always.png";
+import lsv from "../../images/lsv.png";
 import cuestionario from "../../images/cuestionario.png";
 import podcast from "../../images/podcast.png";
-import petgram from "../../images/petgram.png";
+import estereofund from "../../images/estereofund.png";
 
 const contentStyle = {
   color: "#fff",
@@ -34,11 +34,11 @@ export const Proyectos = () => {
             <div>
               <div style={contentStyle}>
                 <Card
-                  titulo="Always Update"
-                  descripcion="Diario Digital con Scraping de noticias"
-                  hrefImg="https://diario-digital.vercel.app/"
-                  image={proyecto1}
-                  href="https://github.com/LeonLSV/DiarioDigital"
+                  titulo="León Sonido Virtual"
+                  descripcion="Escuela de audio en vivo"
+                  hrefImg="https://leonsonidovirtual.com/"
+                  image={lsv}
+                  href="https://leonsonidovirtual.com/"
                 />
               </div>
             </div>
@@ -60,11 +60,11 @@ export const Proyectos = () => {
             <div>
               <div style={contentStyle}>
                 <Card
-                  titulo="Petgram"
-                  descripcion="La red social de los animales"
-                  hrefImg="https://react-avanzado-eight.vercel.app/"
-                  image={petgram}
-                  href="https://github.com/LeonLSV/ReactAvanzado"
+                  titulo="Estereo Fund"
+                  descripcion="Empresa dedicada a la renta de equipos para el espectaculo"
+                  hrefImg="https://stereofund.com.mx/"
+                  image={estereofund}
+                  href="https://stereofund.com.mx/"
                 />
               </div>
             </div>
