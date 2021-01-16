@@ -8,7 +8,7 @@ import cuestionario from "../../images/cuestionario.png";
 import podcast from "../../images/podcast.png";
 import estereofund from "../../images/estereofund.png";
 import lsvtools from "../../images/lsvtools.png";
-import english from "../../images/english.png";
+// import english from "../../images/english.png";
 
 const contentStyle = {
   color: "#fff",
@@ -81,8 +81,8 @@ export const Proyectos = () => {
                 />
               </div>
             </div>
-            <div>
-              {/* <div style={contentStyle}>
+            {/* <div> */}
+            {/* <div style={contentStyle}>
                 <Card
                   titulo="English School"
                   descripcion="English notebook"
@@ -91,7 +91,7 @@ export const Proyectos = () => {
                   href="https://github.com/LeonLSV/English-School"
                 />
               </div> */}
-            </div>
+            {/* </div> */}
             <div>
               <div style={contentStyle}>
                 <Card

@@ -30,7 +30,7 @@ export const Skill = () => {
           SASS
         </TextUl>
         <TextUl colstart={2} colend={3} rowstart={5} rowend={6}>
-          NODE.JS
+          PWA
         </TextUl>
         <TextUl colstart={3} colend={4} rowstart={5} rowend={6}>
           WORDPRESS
@@ -50,7 +50,7 @@ export const Skill = () => {
           GRAPHQL
         </TextUl>
         <TextUl colstart={2} colend={3} rowstart={9} rowend={10}>
-          SEO
+          NODE.JS
         </TextUl>
         <TextUl colstart={3} colend={4} rowstart={9} rowend={10}>
           SCRUM

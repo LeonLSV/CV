@@ -55,7 +55,7 @@ export const Experiencia = () => {
                   linktitle="https://www.leonsonidovirtual.com"
                   titulo="Front-End Developer | León Sonido Virtual"
                   subtitulo="Escuela Online"
-                  descripcion="Desarrollador del Front-End para la eficaz navegación de los estudiantes en la plataforma. También soy educador y mentor."
+                  descripcion="Desarrollador del Front-End para la eficaz navegación de los estudiantes en la plataforma. También soy educador y mentor en la misma institución."
                 />
               </ContenedorCol>
             </Col>
