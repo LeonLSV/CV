@@ -7,6 +7,8 @@ import lsv from "../../images/lsv.png";
 import cuestionario from "../../images/cuestionario.png";
 import podcast from "../../images/podcast.png";
 import estereofund from "../../images/estereofund.png";
+import lsvtools from "../../images/lsvtools.png";
+import english from "../../images/english.png";
 
 const contentStyle = {
   color: "#fff",
@@ -30,7 +32,7 @@ export const Proyectos = () => {
           <Proyecto />
         </Col>
         <Col lg={11} xs={24} style={{ marginTop: "-150px" }}>
-          <Carousel autoplay>
+          <Carousel autoplay effect="fade">
             <div>
               <div style={contentStyle}>
                 <Card
@@ -53,10 +55,21 @@ export const Proyectos = () => {
                 />
               </div>
             </div>
+            <div>
+              <div style={contentStyle}>
+                <Card
+                  titulo="LSV Tools - App de escritorio"
+                  descripcion="Calculadora de operaciones matemáticas para el refuerzo sonoro."
+                  hrefImg="https://leonsonidovirtual.com/lsv-tools/"
+                  image={lsvtools}
+                  href="https://www.youtube.com/watch?v=EVtRBdwfDuY&t=262s"
+                />
+              </div>
+            </div>
           </Carousel>
         </Col>
         <Col lg={11} xs={0} style={{ marginTop: "-150px" }}>
-          <Carousel autoplay>
+          <Carousel autoplay effect="fade">
             <div>
               <div style={contentStyle}>
                 <Card
@@ -67,6 +80,17 @@ export const Proyectos = () => {
                   href="https://stereofund.com.mx/"
                 />
               </div>
+            </div>
+            <div>
+              {/* <div style={contentStyle}>
+                <Card
+                  titulo="English School"
+                  descripcion="English notebook"
+                  hrefImg="https://english-school.vercel.app/"
+                  image={english}
+                  href="https://github.com/LeonLSV/English-School"
+                />
+              </div> */}
             </div>
             <div>
               <div style={contentStyle}>
