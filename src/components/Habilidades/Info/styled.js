@@ -24,6 +24,11 @@ export const GlobalInfo = styled.div`
     margin-top: -0px;
     margin: 0 auto;
   }
+  @media (max-width: 812px) {
+    //iphoneX costado
+    margin-top: 40px;
+    margin-bottom: 80px;
+  }
 `;
 
 export const Ramiro = styled.h1`

@@ -28,6 +28,12 @@ export const TitleHeader = styled.h1`
     width: 300px;
     margin-top: -100px;
   }
+  @media (max-width: 812px) {
+    font-size: 50px;
+    line-height: 50px;
+    margin-top: -80px;
+  }
+  //nuevo
   @media (max-width: 700px) {
     font-size: 50px;
     line-height: 50px;
@@ -50,6 +56,10 @@ export const Title2Header = styled.h1`
     line-height: 70px;
     width: 300px;
   }
+  @media (max-width: 812px) {
+    font-size: 50px;
+    line-height: 50px;
+  }
   @media (max-width: 700px) {
     font-size: 50px;
     line-height: 50px;
@@ -68,6 +78,12 @@ export const Parrafo = styled.p`
   color: white;
   @media (max-width: 900px) {
     margin-top: 20px;
+  }
+  @media (max-width: 812px) {
+    font-size: 15px;
+    width: 300px;
+    line-height: 20px;
+    margin-top: 25px;
   }
   @media (max-width: 700px) {
     font-size: 13px;

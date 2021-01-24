@@ -4,6 +4,7 @@ import { Sobre } from "./Sobre";
 import { Skill } from "./Skill";
 import { Info } from "./Info";
 import "./index.css";
+import { GlobalSkills } from "./styled";
 
 export const Habilidades = () => {
   const element = useRef(null);
@@ -27,30 +28,33 @@ export const Habilidades = () => {
 
   return (
     <>
-      <Row
-        className="rowhabilidades"
-        gutter={[1, 1]}
-        style={{
-          height: "100vh",
-          display: "flex",
-          alignItems: "center",
-          background: "#e6e6e6",
-        }}>
-        <Col lg={1} xs={0} ref={element}>
-          <Sobre />
-        </Col>
-        {show && (
-          <>
-            <Col lg={11} xs={24} style={{}}>
-              <Info />
-            </Col>
-            <Col lg={11} xs={20} style={{}}>
-              <Skill />
-            </Col>
-            <Col lg={1} xs={0}></Col>
-          </>
-        )}
-      </Row>
+      <GlobalSkills>
+        <Row
+          ref={element}
+          className="rowhabilidades"
+          gutter={[1, 1]}
+          style={{
+            height: "100vh",
+            display: "flex",
+            alignItems: "center",
+            background: "#e6e6e6",
+          }}>
+          {show && (
+            <>
+              <Col lg={1} xs={0}>
+                <Sobre />
+              </Col>
+              <Col lg={11} xs={24} style={{}}>
+                <Info />
+              </Col>
+              <Col lg={11} xs={20} style={{}}>
+                <Skill />
+              </Col>
+              <Col lg={1} xs={0}></Col>
+            </>
+          )}
+        </Row>
+      </GlobalSkills>
     </>
   );
 };

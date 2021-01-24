@@ -10,6 +10,10 @@ export const GlobalHeader = styled.header`
   @media (max-width: 900px) {
     grid-template-rows: 70vh;
   }
+  @media (max-width: 812px) {
+    grid-template-rows: 80vh;
+  }
+  //nuevo
   @media (max-width: 681px) {
     grid-template-rows: 60vh;
   }
