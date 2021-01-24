@@ -1,6 +1,8 @@
 import styled from "styled-components";
+import { fadeIn } from "../../../animation/animation";
 
 export const GlobalInfo = styled.div`
+  ${fadeIn({ time: "2s" })}
   color: black;
   width: auto;
   margin-left: 100px;

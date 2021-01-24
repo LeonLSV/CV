@@ -40,22 +40,22 @@ export const Experiencia = () => {
             <Col lg={23} xs={24}>
               <ContenedorCol>
                 <Trabajo
-                  año="2018/2020"
-                  linktitle="https://www.instagram.com/manuelturizo"
-                  titulo="Shows en Vivo | Argentina, Guatemala, Colombia"
-                  subtitulo="Ingeniero de Sonido"
-                  descripcion="Ingeniero de Sonido con artistas como: Manuel Turizo (Col), Dios Salve a la Reina (Arg), Benjamin Amadeo (Arg), Gaby Moreno (Gt)."
+                  año="2015/2020"
+                  linktitle="https://www.leonsonidovirtual.com"
+                  titulo="Front-End Developer | León Sonido Virtual"
+                  subtitulo="Escuela Online"
+                  descripcion="Desarrollador del Front-End para la eficaz navegación de los estudiantes en la plataforma. También soy educador y mentor en la misma institución."
                 />
               </ContenedorCol>
             </Col>
             <Col lg={23} xs={24}>
               <ContenedorCol>
                 <Trabajo
-                  año="2015/2020"
-                  linktitle="https://www.leonsonidovirtual.com"
-                  titulo="Front-End Developer | León Sonido Virtual"
-                  subtitulo="Escuela Online"
-                  descripcion="Desarrollador del Front-End para la eficaz navegación de los estudiantes en la plataforma. También soy educador y mentor en la misma institución."
+                  año="2018/2020"
+                  linktitle="https://www.instagram.com/manuelturizo"
+                  titulo="Shows en Vivo | Argentina, Guatemala, Colombia"
+                  subtitulo="Ingeniero de Sonido"
+                  descripcion="Ingeniero de Sonido con artistas como: Manuel Turizo (Col), Dios Salve a la Reina (Arg), Benjamin Amadeo (Arg), Gaby Moreno (Gt)."
                 />
               </ContenedorCol>
             </Col>

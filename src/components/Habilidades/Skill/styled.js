@@ -1,6 +1,9 @@
 import styled from "styled-components";
+import { fadeIn } from "../../../animation/animation";
 
 export const GlobalLi = styled.li`
+  ${fadeIn({ time: "2s" })}
+
   list-style: none;
   color: black;
   display: grid;

@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import { App } from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "antd/dist/antd.css";
+import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -12,3 +13,4 @@ ReactDOM.render(
 );
 
 reportWebVitals();
+serviceWorkerRegistration.register();

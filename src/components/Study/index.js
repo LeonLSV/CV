@@ -50,6 +50,18 @@ personalizadas. Solo aceptan al top 0.1% de los mejores estudiantes cada mes."
                 />
               </ContenedorCol>
             </Col>
+
+            <Col lg={23} xs={24}>
+              <ContenedorCol>
+                <ListEstudio
+                  año="2020"
+                  linktitle="https://platzi.com/p/ramirocontrerasleon/"
+                  titulo="Cursos de Programación y SoftSkills"
+                  subtitulo="Nuevas Tecnologías"
+                  descripcion="Algunos de los cursos que tome: JavaScript, Responsive Design, Next JS, Node JS, CSS Grid, Preprocesadores CSS, Progressive Web Apps, Tailwind CSS, Git y GitHub,  Sass, Gatsby JS, Comunicación efectiva, Trabajo en equipo, Soporte a Usuarios, entre otros. "
+                />
+              </ContenedorCol>
+            </Col>
             <Col lg={23} xs={24}>
               <ContenedorCol>
                 <ListEstudio
@@ -61,7 +73,7 @@ personalizadas. Solo aceptan al top 0.1% de los mejores estudiantes cada mes."
                 />
               </ContenedorCol>
             </Col>
-            <Col lg={23} xs={24}>
+            {/* <Col lg={23} xs={24}>
               <ContenedorCol>
                 <ListEstudio
                   año="2007"
@@ -72,7 +84,7 @@ diseñar y calcular la construcción de casas
 personalizadas hasta de 3 pisos."
                 />
               </ContenedorCol>
-            </Col>
+            </Col> */}
           </Row>
         </Layout>
       </Layout>

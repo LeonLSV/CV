@@ -17,11 +17,7 @@ export const ListEstudio = (props) => {
         <LineEstudio></LineEstudio>
         <div>
           <TituloEstudio>
-            <AnchorInfo
-              href={props.linktitle}
-              title="Read more"
-              target="_blank"
-              rel="noreferrer">
+            <AnchorInfo href={props.linktitle} target="_blank" rel="noreferrer">
               {props.titulo}
             </AnchorInfo>
           </TituloEstudio>

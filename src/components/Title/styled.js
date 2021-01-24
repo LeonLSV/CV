@@ -1,6 +1,8 @@
 import styled from "styled-components";
+import { fadeIn } from "../../animation/animation";
 
 export const GlobalTitle = styled.section`
+  ${fadeIn({ time: "1s" })}
   margin-top: 100px;
   @media (max-width: 900px) {
     margin-left: -100px;

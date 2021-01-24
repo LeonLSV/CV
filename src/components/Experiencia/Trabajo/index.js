@@ -17,11 +17,7 @@ export const Trabajo = (props) => {
         <LineTrabajo></LineTrabajo>
         <div>
           <TituloTrabajo>
-            <AnchorInfo
-              href={props.linktitle}
-              title="Read more"
-              target="_blank"
-              rel="noreferrer">
+            <AnchorInfo href={props.linktitle} target="_blank" rel="noreferrer">
               {props.titulo}
             </AnchorInfo>
           </TituloTrabajo>
