@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Row, Col } from "antd";
 import { Proyecto } from "./Proyecto";
 import { Card } from "./Cards";
@@ -18,9 +18,29 @@ const contentStyle = {
 };
 
 export const Proyectos = () => {
+  const element = useRef(null);
+  const [show, setShow] = useState(false);
+
+  useEffect(
+    function () {
+      const observer = new window.IntersectionObserver(function (entries) {
+        const { isIntersecting } = entries[0];
+        if (isIntersecting) {
+          // console.log("Si");
+          setShow(true);
+          observer.disconnect();
+        }
+      });
+      observer.observe(element.current);
+      // console.log(element.current);
+    },
+    [element]
+  );
+
   return (
     <>
       <Row
+        ref={element}
         style={{
           height: "100vh",
           display: "flex",
@@ -28,61 +48,63 @@ export const Proyectos = () => {
           alignItems: "center",
           background: "black",
         }}>
-        <Col lg={1} xs={0}>
-          <Proyecto />
-        </Col>
-        <Col lg={11} xs={24} style={{ marginTop: "-150px" }}>
-          <Carousel autoplay effect="fade">
-            <div>
-              <div style={contentStyle}>
-                <Card
-                  titulo="León Sonido Virtual"
-                  descripcion="Escuela de audio en vivo"
-                  hrefImg="https://leonsonidovirtual.com/"
-                  image={lsv}
-                  href="https://leonsonidovirtual.com/"
-                />
-              </div>
-            </div>
-            <div>
-              <div style={contentStyle}>
-                <Card
-                  titulo="Cuestionario JS"
-                  descripcion="Cuestionario del curso de Ajuste de Sistemas de sonido"
-                  hrefImg="https://leonlsv.github.io/Cuestionario/"
-                  image={cuestionario}
-                  href="https://github.com/LeonLSV/Cuestionario"
-                />
-              </div>
-            </div>
-            <div>
-              <div style={contentStyle}>
-                <Card
-                  titulo="LSV Tools - App de escritorio"
-                  descripcion="Calculadora de operaciones matemáticas para el refuerzo sonoro."
-                  hrefImg="https://leonsonidovirtual.com/lsv-tools/"
-                  image={lsvtools}
-                  href="https://www.youtube.com/watch?v=EVtRBdwfDuY&t=262s"
-                />
-              </div>
-            </div>
-          </Carousel>
-        </Col>
-        <Col lg={11} xs={0} style={{ marginTop: "-150px" }}>
-          <Carousel autoplay effect="fade">
-            <div>
-              <div style={contentStyle}>
-                <Card
-                  titulo="Stereo Fund"
-                  descripcion="Empresa dedicada a la renta de equipos para el espectaculo"
-                  hrefImg="https://stereofund.com.mx/"
-                  image={estereofund}
-                  href="https://stereofund.com.mx/"
-                />
-              </div>
-            </div>
-            {/* <div> */}
-            {/* <div style={contentStyle}>
+        {show && (
+          <>
+            <Col lg={1} xs={0}>
+              <Proyecto />
+            </Col>
+            <Col lg={11} xs={24} style={{ marginTop: "-150px" }}>
+              <Carousel autoplay effect="fade">
+                <div>
+                  <div style={contentStyle}>
+                    <Card
+                      titulo="León Sonido Virtual"
+                      descripcion="Escuela de audio en vivo"
+                      hrefImg="https://leonsonidovirtual.com/"
+                      image={lsv}
+                      href="https://leonsonidovirtual.com/"
+                    />
+                  </div>
+                </div>
+                <div>
+                  <div style={contentStyle}>
+                    <Card
+                      titulo="Cuestionario JS"
+                      descripcion="Cuestionario del curso de Ajuste de Sistemas de sonido"
+                      hrefImg="https://leonlsv.github.io/Cuestionario/"
+                      image={cuestionario}
+                      href="https://github.com/LeonLSV/Cuestionario"
+                    />
+                  </div>
+                </div>
+                <div>
+                  <div style={contentStyle}>
+                    <Card
+                      titulo="LSV Tools - App de escritorio"
+                      descripcion="Calculadora de operaciones matemáticas para el refuerzo sonoro."
+                      hrefImg="https://leonsonidovirtual.com/lsv-tools/"
+                      image={lsvtools}
+                      href="https://www.youtube.com/watch?v=EVtRBdwfDuY&t=262s"
+                    />
+                  </div>
+                </div>
+              </Carousel>
+            </Col>
+            <Col lg={11} xs={0} style={{ marginTop: "-150px" }}>
+              <Carousel autoplay effect="fade">
+                <div>
+                  <div style={contentStyle}>
+                    <Card
+                      titulo="Stereo Fund"
+                      descripcion="Empresa dedicada a la renta de equipos para el espectaculo"
+                      hrefImg="https://stereofund.com.mx/"
+                      image={estereofund}
+                      href="https://stereofund.com.mx/"
+                    />
+                  </div>
+                </div>
+                {/* <div> */}
+                {/* <div style={contentStyle}>
                 <Card
                   titulo="English School"
                   descripcion="English notebook"
@@ -91,21 +113,23 @@ export const Proyectos = () => {
                   href="https://github.com/LeonLSV/English-School"
                 />
               </div> */}
-            {/* </div> */}
-            <div>
-              <div style={contentStyle}>
-                <Card
-                  titulo="Podcasts"
-                  descripcion="Aplicación Web para escuchar podcasts"
-                  hrefImg="https://next-js-pi-opal.vercel.app/"
-                  image={podcast}
-                  href="https://github.com/LeonLSV/NextJs"
-                />
-              </div>
-            </div>
-          </Carousel>
-        </Col>
-        <Col lg={1} xs={0}></Col>
+                {/* </div> */}
+                <div>
+                  <div style={contentStyle}>
+                    <Card
+                      titulo="Podcasts"
+                      descripcion="Aplicación Web para escuchar podcasts"
+                      hrefImg="https://next-js-pi-opal.vercel.app/"
+                      image={podcast}
+                      href="https://github.com/LeonLSV/NextJs"
+                    />
+                  </div>
+                </div>
+              </Carousel>
+            </Col>
+            <Col lg={1} xs={0}></Col>
+          </>
+        )}
       </Row>
     </>
   );

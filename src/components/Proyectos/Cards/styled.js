@@ -1,6 +1,8 @@
 import styled from "styled-components";
+import { fadeIn } from "../../../animation/animation";
 
 export const GlobalCard = styled.section`
+  ${fadeIn({ time: "3s" })}
   display: flex;
   flex-direction: column;
   align-items: center;
