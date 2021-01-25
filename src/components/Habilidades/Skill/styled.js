@@ -10,18 +10,22 @@ export const GlobalLi = styled.li`
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 0.1fr 1fr 0.1fr 1fr 0.1fr 1fr;
   margin-right: 100px;
-  margin-top: -200px;
+  margin-top: 100px;
+  ${"" /* margin-top: -200px; */}
   @media (max-width: 1120px) {
     margin-right: 0px;
   }
   @media (max-width: 992px) {
     margin: 0;
-    margin-top: -70px;
+    margin-top: -50px;
     margin-bottom: 80px;
   }
   @media (max-width: 460px) {
     width: 100%;
     max-width: auto;
+  }
+  @media (max-width: 376px) {
+    margin-left: -10px;
   }
 `;
 

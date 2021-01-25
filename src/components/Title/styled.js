@@ -10,6 +10,7 @@ export const GlobalTitle = styled.section`
   @media (max-width: 600px) {
     margin-left: -40px;
   }
+
   @media (max-width: 460px) {
     margin: 20px 20px;
   }
@@ -22,6 +23,9 @@ export const TitleHeader = styled.h1`
   font-size: 80px;
   font-weight: bold;
   line-height: 30px;
+  @media (max-width: 1024px) {
+    margin-top: -90px;
+  }
   @media (max-width: 900px) {
     font-size: 60px;
     line-height: 50px;
@@ -38,6 +42,11 @@ export const TitleHeader = styled.h1`
     font-size: 50px;
     line-height: 50px;
     margin-top: -190px;
+  }
+  @media (max-width: 540px) {
+    font-size: 50px;
+    line-height: 50px;
+    margin-top: -100px;
   }
   @media (max-width: 460px) {
     font-size: 30px;
@@ -104,6 +113,7 @@ export const Line = styled.div`
   height: 1px;
   margin-top: 100px;
   background: #73af5c;
+
   @media (max-width: 900px) {
     display: none;
   }

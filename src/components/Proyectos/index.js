@@ -44,7 +44,7 @@ export const Proyectos = () => {
         <Row
           ref={element}
           style={{
-            height: "100vh",
+            // height: "100vh",
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
@@ -83,7 +83,7 @@ export const Proyectos = () => {
                     <div style={contentStyle}>
                       <Card
                         titulo="LSV Tools - App de escritorio"
-                        descripcion="Calculadora de operaciones matemáticas para el refuerzo sonoro."
+                        descripcion="Calculadora de operaciones matemáticas para audio en vivo."
                         hrefImg="https://leonsonidovirtual.com/lsv-tools/"
                         image={lsvtools}
                         href="https://www.youtube.com/watch?v=EVtRBdwfDuY&t=262s"

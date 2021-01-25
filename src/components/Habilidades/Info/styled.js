@@ -6,7 +6,8 @@ export const GlobalInfo = styled.div`
   color: black;
   width: auto;
   margin-left: 100px;
-  margin-top: -200px;
+  margin-top: 100px;
+  ${"" /* margin-top: -200px; */}
   @media (max-width: 992px) {
     display: flex;
     flex-direction: column;

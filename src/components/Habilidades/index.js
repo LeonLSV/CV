@@ -34,7 +34,7 @@ export const Habilidades = () => {
           className="rowhabilidades"
           gutter={[1, 1]}
           style={{
-            height: "100vh",
+            margin: "0",
             display: "flex",
             alignItems: "center",
             background: "#e6e6e6",
