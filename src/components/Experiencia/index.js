@@ -52,7 +52,7 @@ export const Experiencia = () => {
           <Row
             ref={element}
             style={{
-              height: "100vh",
+              height: "auto",
               display: "flex",
               alignItems: "center",
               background: "#e6e6e6",

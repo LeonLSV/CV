@@ -3,7 +3,7 @@ import { Row, Col } from "antd";
 import { Layout } from "antd";
 import { Estudio } from "./Estudio";
 import { ListEstudio } from "./ListEstudio";
-import { ContenedorSider, ContenedorCol } from "./styled";
+import { ContenedorSider, ContenedorCol, MarginFooter } from "./styled";
 
 const { Sider } = Layout;
 
@@ -52,7 +52,7 @@ export const Study = () => {
           <Row
             ref={element}
             style={{
-              height: "100vh",
+              height: "auto",
               display: "flex",
               alignItems: "center",
               background: "#e6e6e6",
@@ -62,7 +62,7 @@ export const Study = () => {
                 <Col lg={23} xs={24}>
                   <ContenedorCol>
                     <ListEstudio
-                      año="2020"
+                      año="2020/2021"
                       linktitle="https://platzi.com/blog/que-es-platzi-master/"
                       titulo="Platzi Master | Colombia"
                       subtitulo="Front-End Developer"
@@ -76,7 +76,7 @@ personalizadas. Solo aceptan al top 0.1% de los mejores estudiantes cada mes."
                 <Col lg={23} xs={24}>
                   <ContenedorCol>
                     <ListEstudio
-                      año="2020"
+                      año="2020/2021"
                       linktitle="https://platzi.com/p/ramirocontrerasleon/"
                       titulo="Cursos de Programación y SoftSkills"
                       subtitulo="Nuevas Tecnologías"
@@ -84,7 +84,7 @@ personalizadas. Solo aceptan al top 0.1% de los mejores estudiantes cada mes."
                     />
                   </ContenedorCol>
                 </Col>
-                <Col lg={23} xs={24}>
+                <Col lg={23} xs={24} style={{ background: "#e6e6e6" }}>
                   <ContenedorCol>
                     <ListEstudio
                       año="2013/2020"
@@ -109,6 +109,9 @@ personalizadas hasta de 3 pisos."
                 />
               </ContenedorCol>
             </Col> */}
+          </Row>
+          <Row>
+            <MarginFooter />
           </Row>
         </Layout>
       </Layout>
