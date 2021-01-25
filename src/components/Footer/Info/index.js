@@ -35,7 +35,7 @@ export const InfoFooter = () => {
           <ContainerButtons1>
             <Tooltip placement="bottom" title={textPDF}>
               <AnchorInfo1
-                href="https://leonsonidovirtual.com/wp-content/uploads/2020/12/CV_RamiroContrerasLeon.pdf"
+                href="https://leonsonidovirtual.com/wp-content/uploads/2021/01/CV_RamiroContrerasLeon.pdf"
                 target="_blank"
                 rel="noreferrer">
                 <ButtonDownload1>DESCARGAR CV</ButtonDownload1>
