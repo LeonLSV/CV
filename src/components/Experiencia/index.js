@@ -62,11 +62,22 @@ export const Experiencia = () => {
                 <Col lg={23} xs={24}>
                   <ContenedorCol>
                     <Trabajo
-                      año="2015/2020"
+                      año="2015/2021"
                       linktitle="https://www.leonsonidovirtual.com"
                       titulo="Front-End Developer | León Sonido Virtual"
                       subtitulo="Escuela Online"
                       descripcion="Desarrollador del Front-End para la eficaz navegación de los estudiantes en la plataforma. También soy educador y mentor en la misma institución."
+                    />
+                  </ContenedorCol>
+                </Col>
+                <Col lg={23} xs={24}>
+                  <ContenedorCol>
+                    <Trabajo
+                      año="2018/2021"
+                      linktitle="https://leonsonidovirtual.com/lsv-tools/"
+                      titulo="Creador y Programador de Apps"
+                      subtitulo="Desarrollador"
+                      descripcion="He desarrollado 2 Apps publicadas. <LSV Tools> y <Efecto Haas> las cuales han tenido gran impacto en la industria de audio en vivo generando ventas en toda Latinoamerica y parte de Europa."
                     />
                   </ContenedorCol>
                 </Col>
