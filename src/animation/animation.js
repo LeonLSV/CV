@@ -2,11 +2,9 @@ import { css, keyframes } from "styled-components";
 
 const FadeInKeyframes = keyframes`
   from{
-    filter: blur(5px);
     opacity: 0;
   }
   to{
-    filter: blur(0);
     opacity: 100;
   }
 
@@ -15,12 +13,10 @@ const FadeInKeyframes = keyframes`
 const FadeInLeft = keyframes`
   from{
     transform: translateX(3000px);
-    filter: blur(5px);
     opacity: 0;
   }
   to{
     transform: translateX(0px);
-    filter: blur(0);
     opacity: 100;
   }
 `;
@@ -28,12 +24,10 @@ const FadeInLeft = keyframes`
 const FadeInRight = keyframes`
   from{
     transform: translateX(-1000px);
-    filter: blur(5px);
     opacity: 0;
   }
   to{
     transform: translateX(0px);
-    filter: blur(0);
     opacity: 100;
   }
 `;

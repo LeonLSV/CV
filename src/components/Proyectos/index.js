@@ -9,7 +9,7 @@ import cuestionario from "../../images/cuestionario.png";
 import podcast from "../../images/podcast.png";
 import estereofund from "../../images/estereofund.png";
 import lsvtools from "../../images/lsvtools.png";
-// import english from "../../images/english.png";
+import efectohaas from "../../images/efectohaas.png";
 
 const contentStyle = {
   color: "#fff",
@@ -61,7 +61,7 @@ export const Proyectos = () => {
                     <div style={contentStyle}>
                       <Card
                         titulo="León Sonido Virtual"
-                        descripcion="Escuela de audio en vivo"
+                        descripcion="Escuela de audio en vivo. Hecha con WordPress."
                         hrefImg="https://leonsonidovirtual.com/"
                         image={lsv}
                         href="https://leonsonidovirtual.com/"
@@ -72,7 +72,7 @@ export const Proyectos = () => {
                     <div style={contentStyle}>
                       <Card
                         titulo="Cuestionario JS"
-                        descripcion="Cuestionario del curso de Ajuste de Sistemas de sonido"
+                        descripcion="Cuestionario del curso de Ajuste de Sistemas de sonido."
                         hrefImg="https://leonlsv.github.io/Cuestionario/"
                         image={cuestionario}
                         href="https://github.com/LeonLSV/Cuestionario"
@@ -83,7 +83,7 @@ export const Proyectos = () => {
                     <div style={contentStyle}>
                       <Card
                         titulo="LSV Tools - App de escritorio"
-                        descripcion="Calculadora de operaciones matemáticas para audio en vivo."
+                        descripcion="Aplicación creada y programada por mi."
                         hrefImg="https://leonsonidovirtual.com/lsv-tools/"
                         image={lsvtools}
                         href="https://www.youtube.com/watch?v=EVtRBdwfDuY&t=262s"
@@ -97,30 +97,32 @@ export const Proyectos = () => {
                   <div>
                     <div style={contentStyle}>
                       <Card
+                        titulo="App Efecto Haas"
+                        descripcion="Aplicación creada y programada por mi (React)."
+                        hrefImg="https://lsv-efecto-haas.vercel.app/ "
+                        image={efectohaas}
+                        href="https://github.com/LeonLSV/EfectoHaas"
+                      />
+                    </div>
+                  </div>
+
+                  <div>
+                    <div style={contentStyle}>
+                      <Card
                         titulo="Stereo Fund"
-                        descripcion="Empresa dedicada a la renta de equipos para el espectaculo"
+                        descripcion="Página web creada en WordPress."
                         hrefImg="https://stereofund.com.mx/"
                         image={estereofund}
                         href="https://stereofund.com.mx/"
                       />
                     </div>
                   </div>
-                  {/* <div> */}
-                  {/* <div style={contentStyle}>
-                <Card
-                  titulo="English School"
-                  descripcion="English notebook"
-                  hrefImg="https://english-school.vercel.app/"
-                  image={english}
-                  href="https://github.com/LeonLSV/English-School"
-                />
-              </div> */}
-                  {/* </div> */}
+
                   <div>
                     <div style={contentStyle}>
                       <Card
                         titulo="Podcasts"
-                        descripcion="Aplicación Web para escuchar podcasts"
+                        descripcion="Consumo de API de Podcasts."
                         hrefImg="https://next-js-pi-opal.vercel.app/"
                         image={podcast}
                         href="https://github.com/LeonLSV/NextJs"
