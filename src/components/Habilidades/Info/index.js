@@ -20,8 +20,12 @@ export const Info = () => {
   return (
     <>
       <GlobalInfo>
-        <Ramiro>Ramiro</Ramiro>
-        <Contreras>Contreras León</Contreras>
+        <Tooltip
+          placement="top"
+          title="Apasionado por la programación y la creación de aplicaciones.">
+          <Ramiro>Ramiro</Ramiro>
+          <Contreras>Contreras León</Contreras>
+        </Tooltip>
         <TextoP>Nacionalidad: Argentino</TextoP>
         <TextoP>Email: ramiroleon@leonsonidovirtual.com</TextoP>
         <TextoP>Locación: Medellín, Colombia</TextoP>
