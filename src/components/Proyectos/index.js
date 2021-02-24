@@ -53,7 +53,6 @@ export const Proyectos = () => {
         start: "top 80%",
         end: "top 50%",
         scrub: "true",
-        markers: "true",
       },
     });
     gsap.to(".intro", {
@@ -66,7 +65,6 @@ export const Proyectos = () => {
         start: "top 80%",
         end: "top 50%",
         scrub: "true",
-        markers: "true",
       },
     });
   });
