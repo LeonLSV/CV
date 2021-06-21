@@ -77,7 +77,7 @@ export const Experiencia = () => {
                       linktitle="https://leonsonidovirtual.com/lsv-tools/"
                       titulo="Creador y Programador de Apps"
                       subtitulo="Desarrollador"
-                      descripcion="He desarrollado 2 Apps publicadas. <LSV Tools> y <Efecto Haas> las cuales han tenido gran impacto en la industria de audio en vivo generando ventas en toda Latinoamerica y parte de Europa."
+                      descripcion="He desarrollado 3 Apps publicadas. <LSV Tools> <RiderTécnico LSV> y <Efecto Haas> las cuales han tenido gran impacto en la industria de audio en vivo generando ventas en toda Latinoamerica y parte de Europa."
                     />
                   </ContenedorCol>
                 </Col>
@@ -88,7 +88,7 @@ export const Experiencia = () => {
                       linktitle="https://www.instagram.com/manuelturizo"
                       titulo="Shows en Vivo | Argentina, Guatemala, Colombia"
                       subtitulo="Ingeniero de Sonido"
-                      descripcion="Ingeniero de Sonido con artistas como: Manuel Turizo (Col), Dios Salve a la Reina (Arg), Benjamin Amadeo (Arg), Gaby Moreno (Gt)."
+                      descripcion="Ingeniero de Sonido con artistas como: Manuel Turizo (Col), Dios Salve a la Reina (Arg), Benjamin Amadeo (Arg), Gaby Moreno (Gt) y muchos más."
                     />
                   </ContenedorCol>
                 </Col>

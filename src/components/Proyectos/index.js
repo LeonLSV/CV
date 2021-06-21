@@ -6,7 +6,7 @@ import { Card } from "./Cards";
 import { Carousel, Tooltip } from "antd";
 import lsv from "../../images/lsv.png";
 import cuestionario from "../../images/cuestionario.png";
-import podcast from "../../images/podcast.png";
+import rider from "../../images/rider.png";
 import estereofund from "../../images/estereofund.png";
 import lsvtools from "../../images/lsvtools.png";
 import efectohaas from "../../images/efectohaas.png";
@@ -91,18 +91,19 @@ export const Proyectos = () => {
                     <div>
                       <Tooltip
                         placement="top"
-                        title="Esta es mi página web oficial. Desde 2015 estoy implementando WordPress. Me encargo tanto del Frontend como del Backend.">
+                        title="Esta es otra aplicación de mi creación 100%. Hecha en React. Implementé el uso de Provider con Hooks y también Redux.">
                         <div style={contentStyle}>
                           <Card
-                            titulo="León Sonido Virtual"
-                            descripcion="Escuela de audio en vivo. Hecha con WordPress."
-                            hrefImg="https://leonsonidovirtual.com/"
-                            image={lsv}
-                            href="https://leonsonidovirtual.com/"
+                            titulo="App RiderTécnico LSV"
+                            descripcion="Aplicación creada y programada por mi (React). "
+                            hrefImg="https://ridertecnico-lsv.com/"
+                            image={rider}
+                            href="https://ridertecnico-lsv.com/"
                           />
                         </div>
                       </Tooltip>
                     </div>
+
                     <div>
                       <Tooltip
                         placement="top"
@@ -172,14 +173,14 @@ export const Proyectos = () => {
                     <div>
                       <Tooltip
                         placement="top"
-                        title="Esta App es parte de un curso de Next.js donde aprendí a consumir una API.">
+                        title="Esta es mi página web oficial. Desde 2015 estoy implementando WordPress. Me encargo tanto del Frontend como del Backend.">
                         <div style={contentStyle}>
                           <Card
-                            titulo="Podcasts"
-                            descripcion="Consumo de API de Podcasts."
-                            hrefImg="https://next-js-pi-opal.vercel.app/"
-                            image={podcast}
-                            href="https://github.com/LeonLSV/NextJs"
+                            titulo="León Sonido Virtual"
+                            descripcion="Escuela de audio en vivo. Hecha con WordPress."
+                            hrefImg="https://leonsonidovirtual.com/"
+                            image={lsv}
+                            href="https://leonsonidovirtual.com/"
                           />
                         </div>
                       </Tooltip>

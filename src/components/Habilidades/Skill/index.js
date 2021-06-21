@@ -17,7 +17,7 @@ export const Skill = () => {
         </TextUl>
         <LineaVerde colstart1={1} colend1={4} rowstart1={2} rowend1={3} />
         <TextUl colstart={1} colend={2} rowstart={3} rowend={4}>
-          HTML
+          REACT-NATIVE
         </TextUl>
         <TextUl colstart={2} colend={3} rowstart={3} rowend={4}>
           CSS
@@ -53,7 +53,7 @@ export const Skill = () => {
           NODE.JS
         </TextUl>
         <TextUl colstart={3} colend={4} rowstart={9} rowend={10}>
-          SCRUM
+          INGLES A-2
         </TextUl>
       </GlobalLi>
     </>
